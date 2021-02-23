@@ -39,7 +39,7 @@ if (accettato == 1) {
             alert("I numeri usciti sono uguali.");
         }
 
-        var reload = prompt("Premi il tasto 'R' e poi 'INVIO' per continuare a giocare o qualsiasi altro tasto e poi 'INVIO' per interrompere.");
+        var reload = prompt("Premi il tasto 'R' e poi 'INVIO' per continuare a giocare oppure semplicemente 'INVIO' per interrompere.");
         
         if (reload == "r") {
             gioco = ++gioco;
