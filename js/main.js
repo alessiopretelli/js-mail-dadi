@@ -2,7 +2,7 @@ var accettato, gioco;
 gioco = 1;
 var utenti = ["alessio@pretelli", "luca@pretelli", "nico@pretelli", "marco@pretelli", "walter@pretelli"];
 alert("Benvenuto al Gioco dei Dadi, e' necessario essere registrati con la propria E-Mail per giocare.");
-alert("hint: alessio@pretelli, luca@pretelli, nico@pretelli, marco@pretelli, walter@pretelli");
+alert("Hint: alessio@pretelli, luca@pretelli, nico@pretelli, marco@pretelli, walter@pretelli");
 var utente = prompt("Prego, inserisci la tua E-Mail.");
 
 
@@ -48,5 +48,6 @@ if (accettato == 1) {
     }
 
 } else {
-    alert("Ci spiace, la tua E-Mail non e' registrata nel nostro server.")
+    alert("Ci spiace, la tua E-Mail non e' registrata nel nostro server.");
+
 }
